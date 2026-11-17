@@ -1,0 +1,33 @@
+1. Develop a web browser-based **demo game** inspired by the arcade game **"吞食天地2：赤壁之战" (Warriors of Fate / Tenchi wo Kurau II)**.
+
+2. The goal is to reproduce the original game's overall gameplay feel, visual style, controls, combat mechanics, and user experience as closely as reasonably possible for a web-based implementation.
+
+3. **Limit the scope of this demo to only:**
+   - **One playable hero**
+   - **One playable stage**
+   - The enemies and boss necessary to complete that single stage
+   - The basic combat mechanics required for the demo
+
+4. Do **not** implement additional heroes, additional stages, or the complete original game at this time. The architecture may remain extensible so that more heroes and stages can be added later, but they are outside the scope of this task.
+
+5. The demo should include the core gameplay needed to represent the original game, such as:
+   - Character movement
+   - Basic attacks and combinations
+   - Jumping and jump attacks, if applicable
+   - Enemy AI
+   - Player and enemy health
+   - Damage, knockback, and death states
+   - Stage progression
+   - One stage boss
+   - Win/game-over states
+   - Appropriate sound effects, music, UI, and visual feedback where practical
+
+6. Make the game **English-user-friendly**, while retaining necessary Chinese characters for character names, locations, special moves, or other elements where the Chinese names are useful or iconic. English explanations or translations should be provided where appropriate.
+
+7. The game must run directly in modern desktop web browsers and should be suitable for deployment as a static or mostly static web application on **Cloudflare Pages**.
+
+8. Keep the project compatible with Cloudflare deployment, but **do not deploy it**. Leave all Cloudflare deployment and production configuration steps for me to perform manually.
+
+9. Prioritize creating a **complete, polished, and playable vertical-slice demo** rather than implementing a large amount of incomplete content.
+
+10. For this phase, success means that a user can open the game in a browser, select/use the single available hero, play through the single stage from beginning to end, defeat its boss, and reach a clear stage-complete state.
