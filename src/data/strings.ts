@@ -9,6 +9,14 @@ export const GAME_TITLE = {
   press: 'PRESS ENTER',
 } as const;
 
+/** How the demo was made, shown at the bottom of the title screen. Keep in step with the README. */
+export const CREDITS: readonly (readonly [string, string])[] = [
+  ['MODEL', 'CLAUDE FABLE 5.2'],
+  ['PROVIDER', 'ANTHROPIC'],
+  ['REASONING EFFORT', 'X-HIGH'],
+  ['CODING AGENT', 'CLAUDE CODE'],
+];
+
 export const HERO_CARD = {
   zh: '关羽',
   en: 'GUAN YU',
