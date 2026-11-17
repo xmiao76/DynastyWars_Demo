@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Audio audition (dev only)</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 12px;
+        background: #2a2438;
+        color: #e8e4f0;
+        font: 13px/1.4 system-ui, sans-serif;
+      }
+      h2 {
+        margin: 16px 0 6px;
+        font-size: 14px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        align-items: center;
+      }
+      button {
+        padding: 5px 9px;
+        border: 1px solid #5c5378;
+        border-radius: 3px;
+        background: #3a3350;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #4a4266;
+      }
+      button:focus-visible,
+      input:focus-visible {
+        outline: 2px solid #f0b040;
+        outline-offset: 1px;
+      }
+      pre {
+        margin: 6px 0 0;
+        padding: 8px;
+        background: #1c1826;
+        font: 12px/1.35 ui-monospace, Consolas, monospace;
+        overflow-x: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./sfx.ts"></script>
+  </body>
+</html>
