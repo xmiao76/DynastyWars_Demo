@@ -7,6 +7,9 @@ reach its commander, 于禁 Yu Jin.
 This is a vertical slice: **one hero, one stage, four enemy types and one boss**, playable
 from the title screen to the stage-clear tally.
 
+This is a sample project developed by Fable 5.2 as a baseline to compare with other games
+developed with different loop engineering framework.
+
 **Play it in your browser: https://dynasty-wars-demo.pages.dev**
 
 > **Originality.** This is an original game in the belt-scroll brawler genre. The setting and
